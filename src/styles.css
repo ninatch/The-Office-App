@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+body {
+    background-image: url("../public/img/mac-btns.png");
+    background-position: left 30px top 22px;
+    background-repeat: no-repeat;
+    background-size: 5%;
+}
+
+button {
+    margin: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 7%;
+    border: none;
+    font-size: 14px;
+    background-color: #ebebeb;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+select {
+    margin: 1rem;
+    margin-left: 10rem;
+    width: 50rem;
+    height: 2.5rem;
+    font-size: 18px;
+    text-indent: 1rem;
+    background-color: #e1dfdf;
+    border: none;
+    border-radius: 6px;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.board {
+    margin: 3rem 9rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #ebebeb;
+}
+
+.board p {
+    margin: 2rem;
+}
